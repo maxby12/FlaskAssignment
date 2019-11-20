@@ -12,7 +12,7 @@ app = Flask(__name__, template_folder='templates', static_folder='static')
 
 app.config['MONGO_DBNAME'] = 'foodb'
 # app.config['MONGO_URI'] = 'mongodb://localhost:27017/foodb'
-app.config['MONGO_URI'] = 'mongodb+srv://admin:admin@cluster0-szuzp.gcp.mongodb.net/test?retryWrites=true&w=majority'
+app.config['MONGO_URI'] = 'mongodb+srv://admin:admin@cluster0-szuzp.gcp.mongodb.net/foodb?retryWrites=true&w=majority'
 
 app.config['SECRET_KEY'] = 'sLgz46L6SAfy4MDtAxpdz1bKtO37H728'
 app.config['SESSION_PROTECTION'] = 'strong'
